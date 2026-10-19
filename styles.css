@@ -128,8 +128,7 @@ img {
   background: linear-gradient(180deg, #2a080d 0%, #1c0508 100%);
   color: var(--white);
   border-bottom: 2px solid var(--gold);
-  position: sticky;
-  top: 0;
+  position: relative;
   z-index: 100;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
 }
@@ -1490,10 +1489,7 @@ img {
     grid-template-columns: 1fr;
   }
   .mobile-bottom-nav {
-    display: block;
-  }
-  body {
-    padding-bottom: 60px; /* offset for sticky bottom nav */
+    display: none !important;
   }
 }
 
