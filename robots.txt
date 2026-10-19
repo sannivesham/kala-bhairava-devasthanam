@@ -1,4 +1,20 @@
+# robots.txt for Sri Kala Bhairava Devasthanam
+# Domain: https://kalabhairavadevasthanam.sannivesham.com
+
 User-agent: *
 Allow: /
 
+# Googlebot specific rules
+User-agent: Googlebot
+Allow: /
+
+# Google Image search rules
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+# Bingbot specific rules
+User-agent: Bingbot
+Allow: /
+
+# XML Sitemaps
 Sitemap: https://kalabhairavadevasthanam.sannivesham.com/sitemap.xml

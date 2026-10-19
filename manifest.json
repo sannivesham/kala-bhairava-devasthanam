@@ -1,0 +1,24 @@
+{
+  "name": "Sri Kala Bhairava Devasthanam",
+  "short_name": "Kala Bhairava",
+  "description": "Official website of Sri Kala Bhairava Devasthanam. Sacred abode of Lord Sri Kala Bhairava and Sri Kalika Matha.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e0508",
+  "theme_color": "#2b080d",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/images/logo.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["religious", "culture", "travel"]
+}

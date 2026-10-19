@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://kalabhairavadevasthanam.sannivesham.com/</loc>
     <lastmod>2026-10-19</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://kalabhairavadevasthanam.sannivesham.com/" />
     <xhtml:link rel="alternate" hreflang="te" href="https://kalabhairavadevasthanam.sannivesham.com/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kalabhairavadevasthanam.sannivesham.com/" />
+
+    <!-- Google Image Search indexing for Deities & Sanctum -->
+    <image:image>
+      <image:loc>https://kalabhairavadevasthanam.sannivesham.com/assets/images/deity-bhairava.svg</image:loc>
+      <image:title>Sri Kala Bhairava Swamy Deity - Sri Kala Bhairava Devasthanam</image:title>
+      <image:caption>Lord Sri Kala Bhairava, the Kshetrapalaka and protector of devotees</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kalabhairavadevasthanam.sannivesham.com/assets/images/deity-kalika.svg</image:loc>
+      <image:title>Sri Kalika Matha Temple Deity - Sri Kala Bhairava Devasthanam</image:title>
+      <image:caption>Goddess Sri Kalika Matha blessing devotees with strength and protection</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kalabhairavadevasthanam.sannivesham.com/assets/images/logo.svg</image:loc>
+      <image:title>Sri Kala Bhairava Devasthanam Official Emblem</image:title>
+      <image:caption>Official Sacred Medallion of Sri Kala Bhairava Devasthanam</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kalabhairavadevasthanam.sannivesham.com/assets/images/sanctum-hero.svg</image:loc>
+      <image:title>Sanctum Sanctorum Garbhagriha Inner Altar</image:title>
+      <image:caption>Sacred Garbhagriha with divine deepams and temple pillars</image:caption>
+    </image:image>
   </url>
 </urlset>
