@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <radialGradient id="sanctumGlow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#ffb733" stop-opacity="0.85"/>
+      <stop offset="35%" stop-color="#b85d19" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#3b0f15" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#190306" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="pillarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1c0709"/>
+      <stop offset="30%" stop-color="#3d1519"/>
+      <stop offset="70%" stop-color="#6e2b34"/>
+      <stop offset="85%" stop-color="#2a0a0e"/>
+      <stop offset="100%" stop-color="#140305"/>
+    </linearGradient>
+    <linearGradient id="goldTrim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fae29c"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#734e0c"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Base Background -->
+  <rect width="1200" height="800" fill="#170305"/>
+  <rect width="1200" height="800" fill="url(#sanctumGlow)"/>
+  
+  <!-- Distant Temple Archway (Garbhagriha) -->
+  <path d="M350,800 L350,340 C350,180 500,100 600,100 C700,100 850,180 850,340 L850,800 Z" fill="#0d0102" opacity="0.9"/>
+  <path d="M380,800 L380,360 C380,220 500,140 600,140 C700,140 820,220 820,360 L820,800 Z" fill="none" stroke="url(#goldTrim)" stroke-width="4" opacity="0.75"/>
+  
+  <!-- Deity Altar Silhouette with Radiant Halo -->
+  <circle cx="600" cy="380" r="140" fill="#ffc83b" opacity="0.4" filter="blur(20px)"/>
+  <circle cx="600" cy="380" r="90" fill="#ffeaa7" opacity="0.5"/>
+  
+  <!-- Deity Silhouette representation -->
+  <path d="M580,290 C580,265 620,265 620,290 C635,320 645,350 655,420 C640,430 630,480 650,560 L550,560 C570,480 560,430 545,420 C555,350 565,320 580,290 Z" fill="#150305"/>
+  <!-- Crown / Kiritam -->
+  <polygon points="575,280 600,210 625,280 600,270" fill="url(#goldTrim)"/>
+  <circle cx="600" cy="240" r="5" fill="#fff"/>
+  
+  <!-- Hanging Temple Bells & Diyas -->
+  <g stroke="url(#goldTrim)" stroke-width="2" fill="url(#goldTrim)">
+    <!-- Left Hanging Bell -->
+    <line x1="260" y1="0" x2="260" y2="280"/>
+    <path d="M245,280 L275,280 L285,320 L235,320 Z"/>
+    <circle cx="260" cy="330" r="7"/>
+    
+    <!-- Right Hanging Bell -->
+    <line x1="940" y1="0" x2="940" y2="280"/>
+    <path d="M925,280 L955,280 L965,320 L915,320 Z"/>
+    <circle cx="940" cy="330" r="7"/>
+  </g>
+  
+  <!-- Glowing Diyas (Oil Lamps) in foreground -->
+  <g transform="translate(600, 680)">
+    <!-- Center Grand Deepam -->
+    <ellipse cx="0" cy="20" rx="90" ry="18" fill="url(#goldTrim)"/>
+    <ellipse cx="0" cy="16" rx="80" ry="12" fill="#522709"/>
+    <!-- Center Flame -->
+    <path d="M0,-35 C-15, -10 -18,12 0,16 C18,12 15,-10 0,-35 Z" fill="#ffec99"/>
+    <path d="M0,-25 C-8, -5 -10,12 0,15 C10,12 8,-5 0,-25 Z" fill="#ff5e13"/>
+    <circle cx="0" cy="0" r="50" fill="#ffa502" opacity="0.35" filter="blur(15px)"/>
+  </g>
+  
+  <!-- Left Grand Pillar -->
+  <rect x="60" y="0" width="160" height="800" fill="url(#pillarGrad)"/>
+  <rect x="50" y="100" width="180" height="25" fill="url(#goldTrim)" opacity="0.8"/>
+  <rect x="50" y="650" width="180" height="35" fill="url(#goldTrim)" opacity="0.8"/>
+  
+  <!-- Right Grand Pillar -->
+  <rect x="980" y="0" width="160" height="800" fill="url(#pillarGrad)"/>
+  <rect x="970" y="100" width="180" height="25" fill="url(#goldTrim)" opacity="0.8"/>
+  <rect x="970" y="650" width="180" height="35" fill="url(#goldTrim)" opacity="0.8"/>
+  
+  <!-- Subtle Vignette Frame -->
+  <rect width="1200" height="800" fill="none" stroke="#d4af37" stroke-width="12" opacity="0.4"/>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 650" width="600" height="650">
+  <defs>
+    <radialGradient id="kbGlow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#ffe699"/>
+      <stop offset="40%" stop-color="#cc881e"/>
+      <stop offset="85%" stop-color="#3d0e13"/>
+      <stop offset="100%" stop-color="#140205"/>
+    </radialGradient>
+    <linearGradient id="goldL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff4cc"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#8a5a0c"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="600" height="650" fill="url(#kbGlow)"/>
+  
+  <!-- Golden Prabhavali / Arch -->
+  <path d="M100,650 L100,340 C100,160 200,60 300,60 C400,60 500,160 500,340 L500,650" fill="none" stroke="url(#goldL)" stroke-width="24"/>
+  <path d="M120,650 L120,340 C120,180 210,84 300,84 C390,84 480,180 480,340 L480,650" fill="none" stroke="#fff1bd" stroke-width="4" stroke-dasharray="8,8"/>
+  <circle cx="300" cy="50" r="22" fill="url(#goldL)"/>
+  <text x="300" y="58" font-family="'Georgia', serif" font-size="18" font-weight="bold" fill="#300d11" text-anchor="middle">ॐ</text>
+
+  <!-- Lord Kala Bhairava Silhouette with Ornaments -->
+  <!-- Radiant Halo -->
+  <circle cx="300" cy="270" r="110" fill="#fcd14d" opacity="0.45"/>
+  <circle cx="300" cy="270" r="95" fill="none" stroke="url(#goldL)" stroke-width="4"/>
+  
+  <!-- Head & Kiritam -->
+  <path d="M260,240 C260,200 340,200 340,240 C340,290 260,290 260,240 Z" fill="#24070a"/>
+  <!-- Ornate Golden Crown -->
+  <path d="M250,225 L300,120 L350,225 L325,230 L300,190 L275,230 Z" fill="url(#goldL)"/>
+  <circle cx="300" cy="160" r="8" fill="#d92414"/>
+
+  <!-- Divine Third Eye & Vibhuti -->
+  <line x1="285" y1="226" x2="315" y2="226" stroke="#fff" stroke-width="2"/>
+  <circle cx="300" cy="226" r="3" fill="#ff3838"/>
+  
+  <!-- Red & Gold Garlands (Vadamala & Pushpamala) -->
+  <path d="M220,310 C240,480 360,480 380,310" fill="none" stroke="#e02828" stroke-width="28" stroke-linecap="round"/>
+  <path d="M235,320 C250,460 350,460 365,320" fill="none" stroke="url(#goldL)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M250,330 C260,430 340,430 350,330" fill="none" stroke="#ff8c1a" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Trishula (Trident) in right hand -->
+  <g transform="translate(420, 260)">
+    <line x1="0" y1="-140" x2="0" y2="350" stroke="url(#goldL)" stroke-width="8"/>
+    <path d="M0,-170 L-25,-120 L0,-130 L25,-120 Z" fill="url(#goldL)"/>
+  </g>
+
+  <!-- Sacred Dog (Vahana / Shwana) Presence on side -->
+  <path d="M150,560 C150,500 200,470 230,520 L240,650 L140,650 Z" fill="#1a0407"/>
+
+  <!-- Title Badge inside image -->
+  <rect x="40" y="580" width="520" height="48" rx="8" fill="rgba(25, 4, 7, 0.88)" stroke="url(#goldL)" stroke-width="1.5"/>
+  <text x="300" y="612" font-family="'Georgia', serif" font-size="20" font-weight="bold" fill="#fff5cc" text-anchor="middle">
+    శ్రీ కాలభైరవ స్వామి (Sri Kala Bhairava)
+  </text>
+</svg>

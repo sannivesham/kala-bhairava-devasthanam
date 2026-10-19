@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sannivesham.github.io/kala-bhairava-devasthanam/sitemap.xml

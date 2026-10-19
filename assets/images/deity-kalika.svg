@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 650" width="600" height="650">
+  <defs>
+    <radialGradient id="kmGlow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#ffcc66"/>
+      <stop offset="40%" stop-color="#b83818"/>
+      <stop offset="85%" stop-color="#400b14"/>
+      <stop offset="100%" stop-color="#140206"/>
+    </radialGradient>
+    <linearGradient id="goldM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff5cc"/>
+      <stop offset="50%" stop-color="#e6b800"/>
+      <stop offset="100%" stop-color="#8a5e00"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="600" height="650" fill="url(#kmGlow)"/>
+  
+  <!-- Golden Prabhavali / Arch -->
+  <path d="M100,650 L100,340 C100,160 200,60 300,60 C400,60 500,160 500,340 L500,650" fill="none" stroke="url(#goldM)" stroke-width="24"/>
+  <path d="M120,650 L120,340 C120,180 210,84 300,84 C390,84 480,180 480,340 L480,650" fill="none" stroke="#fff4cc" stroke-width="4" stroke-dasharray="8,8"/>
+  <circle cx="300" cy="50" r="22" fill="url(#goldM)"/>
+  <text x="300" y="58" font-family="'Georgia', serif" font-size="18" font-weight="bold" fill="#300d11" text-anchor="middle">श्रीं</text>
+
+  <!-- Radiant Aura -->
+  <circle cx="300" cy="270" r="115" fill="#f5b342" opacity="0.45"/>
+  <circle cx="300" cy="270" r="100" fill="none" stroke="url(#goldM)" stroke-width="4"/>
+  
+  <!-- Divine Goddess Face & Crown -->
+  <path d="M260,240 C260,200 340,200 340,240 C340,290 260,290 260,240 Z" fill="#24070a"/>
+  <!-- Grand Goddess Kiritam (Crown) -->
+  <path d="M240,225 L300,110 L360,225 L335,230 L300,175 L265,230 Z" fill="url(#goldM)"/>
+  <circle cx="300" cy="155" r="9" fill="#c41414"/>
+
+  <!-- Auspicious Tilakam & Lotus Eyes -->
+  <path d="M296,215 Q300,205 304,215 Q300,228 296,215 Z" fill="#c41414"/>
+  <circle cx="300" cy="223" r="3" fill="#ffec99"/>
+  <!-- Golden Nose Ring (Mukku Puda) -->
+  <circle cx="308" cy="246" r="3" fill="#ffe066"/>
+
+  <!-- Auspicious Red Kumkum & Hibiscus Garlands -->
+  <path d="M210,310 C230,480 370,480 390,310" fill="none" stroke="#d41525" stroke-width="32" stroke-linecap="round"/>
+  <path d="M230,320 C245,460 355,460 370,320" fill="none" stroke="#f0a500" stroke-width="16" stroke-linecap="round"/>
+  <path d="M245,330 C260,430 340,430 355,330" fill="none" stroke="#fff4cc" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Divine Lotus in Hand -->
+  <g transform="translate(170, 370)">
+    <circle cx="0" cy="0" r="24" fill="#e63956"/>
+    <circle cx="-12" cy="-6" r="14" fill="#ff6b8b"/>
+    <circle cx="12" cy="-6" r="14" fill="#ff6b8b"/>
+    <circle cx="0" cy="-14" r="14" fill="#ff94a8"/>
+    <line x1="0" y1="12" x2="0" y2="120" stroke="url(#goldM)" stroke-width="5"/>
+  </g>
+
+  <!-- Title Badge inside image -->
+  <rect x="40" y="580" width="520" height="48" rx="8" fill="rgba(25, 4, 7, 0.88)" stroke="url(#goldM)" stroke-width="1.5"/>
+  <text x="300" y="612" font-family="'Georgia', serif" font-size="20" font-weight="bold" fill="#fff5cc" text-anchor="middle">
+    శ్రీ కాళికా మాత (Sri Kalika Matha)
+  </text>
+</svg>

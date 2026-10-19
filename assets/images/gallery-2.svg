@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#542008"/>
+      <stop offset="100%" stop-color="#260c04"/>
+    </linearGradient>
+    <linearGradient id="gGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff2b3"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#8a5a0c"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <rect x="15" y="15" width="570" height="370" fill="none" stroke="url(#gGold)" stroke-width="2" rx="10"/>
+  <circle cx="300" cy="160" r="65" fill="rgba(212,175,55,0.18)" stroke="url(#gGold)" stroke-width="2"/>
+  <text x="300" y="180" font-size="64" text-anchor="middle">🪔</text>
+  <text x="300" y="275" font-family="'Georgia', serif" font-size="22" font-weight="bold" fill="#fff2cc" text-anchor="middle">లక్షదీపోత్సవం</text>
+  <text x="300" y="308" font-family="'Georgia', serif" font-size="16" fill="#e6cb8b" text-anchor="middle">Deepotsavam & Sahasra Deepam</text>
+  <text x="300" y="350" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.6)" text-anchor="middle">Replace with your photo</text>
+</svg>
